@@ -1,6 +1,6 @@
 import java.sql.*;
 
-public class connectdb_azure {
+public class AzureConnectDemo {
    // JDBC driver name and database URL
    // static final String JDBC_DRIVER = "jtds.jdbc.Driver";  
    static final String DB_URL = "jdbc:sqlserver://janiarvas.database.windows.net:1433;database=Pelikanta;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30";
