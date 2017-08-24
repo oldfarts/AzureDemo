@@ -1,7 +1,9 @@
 apply plugin: 'java'
+
 dependencies {
-  compile 'junit:junit:4.12'
-  }
+    testCompile 'junit:junit:4.12'
+    compile 'junit:junit:4.12'
+}
 
 
 //-------------BUILD------------------
