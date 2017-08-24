@@ -1,1 +1,17 @@
+import static org.junit.Assert.*; 
+import org.junit.*; 
+
 apply plugin: 'java'
+dependencies {
+  compile 'junit:junit:4.12'
+  }
+
+
+//-------------BUILD------------------
+task customBuild(){
+	dependsOn "compileJava"
+	dependsOn "jar"
+	dependsOn "copyJar"
+
+
+}
