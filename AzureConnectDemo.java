@@ -4,12 +4,7 @@ import static org.junit.Assert.*;
 import org.junit.*;
 
 public class AzureConnectDemo {
-	@Test
-  public void evaluatesExpression() {
-    Calculator calculator = new Calculator();
-    int sum = calculator.evaluate("1+2+3");
-    assertEquals(6, sum);
-  }
+   @Test public void test(){ throw new RuntimeException("feilas saatana"); } 
    // JDBC driver name and database URL
    // static final String JDBC_DRIVER = "jtds.jdbc.Driver";  
    static final String DB_URL = "jdbc:sqlserver://janiarvas.database.windows.net:1433;database=Pelikanta;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30";
