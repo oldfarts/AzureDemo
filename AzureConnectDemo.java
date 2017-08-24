@@ -1,5 +1,8 @@
 import java.sql.*;
 
+import static org.junit.Assert.*; 
+import org.junit.*; 
+
 public class AzureConnectDemo {
    // JDBC driver name and database URL
    // static final String JDBC_DRIVER = "jtds.jdbc.Driver";  
@@ -56,4 +59,9 @@ public class AzureConnectDemo {
    }//end try
    System.out.println("Goodbye!");
 }//end main
+	
+	@Test
+	public void test(){
+		throw new RuntimeException("feilas saatana");
+	}
 }//end FirstExample
