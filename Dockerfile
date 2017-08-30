@@ -1,4 +1,4 @@
-FROM jenkins:2.7.6
+FROM jenkins:2.76
 USER 0
 CMD DOCKER_GID=$(stat -c '%g' /var/run/docker.sock) && \
     groupadd -for -g ${DOCKER_GID} docker && \
