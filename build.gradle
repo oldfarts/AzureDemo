@@ -11,5 +11,5 @@ dependencies {
 task customBuild(){
 	dependsOn "compileJava"
 	dependsOn "jar"
-	dependsOn "copyJar"
+	//dependsOn "copyJar"
 }
