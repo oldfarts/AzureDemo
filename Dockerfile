@@ -1,2 +1,4 @@
 RUN echo "Hello docker&Jenkins!"
-docker build -t="AzureDemo" .
+EXPOSE 8081
+docker build -t="AzureDemo"
+
