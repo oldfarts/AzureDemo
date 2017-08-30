@@ -1,8 +1,7 @@
-RUN echo "Hello docker&Jenkins!"
-
+FROM ubuntu
 EXPOSE 8081
 
-FROM ubuntu
+RUN echo "Hello docker&Jenkins!"
 
 docker build -t=azuredemo .
 
