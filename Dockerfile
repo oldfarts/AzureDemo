@@ -4,5 +4,5 @@ EXPOSE 8081
 
 FROM ubuntu
 
-docker build -t="AzureDemo"
+docker build -t=azuredemo .
 
