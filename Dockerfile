@@ -8,5 +8,4 @@ RUN echo "jenkins ALL=NOPASSWD: ALL" >> /etc/sudoers
  
 USER jenkins
 
-docker build -t=azuredemo .
-RUN echo "Hello docker&Jenkins!"
+
